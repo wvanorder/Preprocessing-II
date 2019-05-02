@@ -3,15 +3,22 @@
 .header {
     .content-width();
     margin: 0 auto;
-    margin-top: 10px;
     height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    &:hover {
+        background-color: @sandy-beach;
+        transition-duration: 1s;
+    }
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
+    
 
     h1{
         font-size: 48px;
-        margin-right: 306px;
+        margin-right: 304px;
+        margin-top: 5px;
         a {
             text-align: left;
             .nav-links();
@@ -29,6 +36,9 @@
             .nav-links();
             margin: 0 0 0 3%;
             font-size: 18px;
+            &:hover {
+                color: @eastern-blue;
+            }
         }
       
     }
