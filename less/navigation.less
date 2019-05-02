@@ -1,1 +1,38 @@
 // Navigation Styles here
+
+.header {
+    width: 100%;
+    max-width: @desktop-width;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+    h1{
+        font-size: 48px;
+        margin-right: 306px;
+        a {
+            text-align: left;
+            .nav-links();
+        }
+       
+    }
+    nav {
+       width: 40%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        
+        a {
+            .nav-links();
+            margin: 0 0 0 3%;
+            font-size: 18px;
+        }
+      
+    }
+
+    .border-bottom();
+}
