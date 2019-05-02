@@ -17,10 +17,11 @@
 }
 
 
-.destination-column(@boxwidth, @boxheight) {
+.destination-column(@boxwidth, @boxheight, @justify, @align) {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: @justify;
+    align-items: @align;
     width: @boxwidth;
     height: @boxheight;
 
