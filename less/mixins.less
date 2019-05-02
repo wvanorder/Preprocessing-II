@@ -15,3 +15,26 @@
     width: 100%;
    
 }
+
+
+.destination-column(@boxwidth, @boxheight) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: @boxwidth;
+    height: @boxheight;
+
+    .btn {
+        width: 90%;
+        height: 12%;
+        background-color: @button-bg;
+        color: @white;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: @white;
+            color: @button-bg;
+            transition-duration: 0.3s;
+        }
+    }
+}
