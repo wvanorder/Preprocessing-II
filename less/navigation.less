@@ -1,8 +1,7 @@
 // Navigation Styles here
 
 .header {
-    width: 100%;
-    max-width: @desktop-width;
+    .content-width();
     margin: 0 auto;
     margin-top: 10px;
     height: 100%;
@@ -33,6 +32,24 @@
         }
       
     }
+
+    .border-bottom();
+}
+
+.top-content {
+    .content-width();
+    margin: 0 auto;
+
+    h2 {
+        margin-top: 10px;
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
+
+
+
 
     .border-bottom();
 }

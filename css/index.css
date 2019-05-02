@@ -201,6 +201,18 @@ img {
   margin: 0 0 0 3%;
   font-size: 18px;
 }
+.top-content {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px dashed #C0C0C0;
+  width: 100%;
+}
+.top-content h2 {
+  margin-top: 10px;
+}
+.top-content p {
+  margin-bottom: 10px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
